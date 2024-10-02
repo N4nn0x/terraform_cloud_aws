@@ -10,9 +10,9 @@ required_providers {
 
 # Configure the AWS Provider
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "my-access-key"
-  secret_key = "my-secret-key"
+  region     = "ap-southeast-2"
+  access_key = var.my_access_key
+  secret_key = var.my_secret_key
 }
 
 # Create a VPC
